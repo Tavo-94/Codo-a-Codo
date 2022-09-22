@@ -12,10 +12,6 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7010154403558299) 0%, rgba(0,0,
 background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(29,82,113,1) 73%);
 }
 
-.top-50 {
-    top: 30%!important;
-}
-
 .ratio-16x9 {
     --bs-aspect-ratio: 177%;
   } 
@@ -38,17 +34,3 @@ background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(29,82,113,1) 73%);
       }
 }
 
-@media (min-width: 992px) {
-
-    .top-50 {
-        top: 50%!important;
-    }
-}
-
-@media (min-width: 1200px) {
-
-}
-
-@media (min-width: 1400px) {
-
-}

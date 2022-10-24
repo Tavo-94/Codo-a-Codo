@@ -1,0 +1,36 @@
+.seccion-hero {
+    height: 85vh!important;
+}
+
+.gradiente {
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.7010154403558299) 0%, rgba(0,0,0,0.2528361686471463) 100%);
+}
+
+.gradiente-footer {
+    background: rgb(28,54,67);
+background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(29,82,113,1) 73%);
+}
+
+.ratio-16x9 {
+    --bs-aspect-ratio: 177%;
+  } 
+
+.altura-footer {
+  min-height: 15rem;
+}
+@media (min-width: 576px) {
+
+    .ratio-16x9 {
+        --bs-aspect-ratio: 56%;
+      }
+
+}
+
+@media (min-width: 768px) {
+
+    .altura-footer {
+        height: 14rem;
+      }
+}
+

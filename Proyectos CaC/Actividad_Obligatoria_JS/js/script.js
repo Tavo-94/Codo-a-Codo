@@ -5,6 +5,16 @@ function calcularTotal(){
     var precioBase = 200;
     var total = 0;
 
+    if (cantidad < 0) {
+        alert('numero invalido');
+        return
+    }
+
+    if (cantidad == 0) {
+        alert('Ingrese la cantidad de entradas!!!');
+        return
+    }
+
     if (textoCategoria == "Estudiante") {
         total = precioBase * cantidad * 0.2;
     } else if (textoCategoria == "Trainee") {
